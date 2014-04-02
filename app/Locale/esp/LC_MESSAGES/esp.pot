@@ -1,0 +1,375 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2014-03-26 16:07-0600\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Controller/CommentsController.php:26
+msgid "You didn't write anything in the comment"
+msgstr ""
+
+#: Controller/CommentsController.php:40
+msgid "Comment saved"
+msgstr ""
+
+#: Controller/CommentsController.php:44
+msgid "Cannot comment"
+msgstr ""
+
+#: Controller/PostsController.php:65;177
+#: Controller/UsersController.php:26;189;275
+#: View/Errors/error400.ctp:7
+#: View/Errors/error500.ctp:7
+#: View/Posts/view.ctp:15
+msgid "Error"
+msgstr "Error"
+
+msgid "Saving"
+msgstr = "Salvando"
+
+#: Controller/PostsController.php:74
+#: View/Elements/header.ctp:5
+#: View/Posts/map.ctp:28
+msgid "Map"
+msgstr "Mapa"
+
+#: Controller/PostsController.php:113
+msgid "There are not posts with map data"
+msgstr ""
+
+#: Controller/PostsController.php:193
+msgid "edit"
+msgstr ""
+
+#: Controller/PostsController.php:220
+msgid "You must include a title and/or text, or delete the post"
+msgstr ""
+
+#: Controller/PostsController.php:223
+msgid "You must include a title and/or text"
+msgstr ""
+
+#: Controller/PostsController.php:231;275
+msgid "Error with uploaded file"
+msgstr ""
+
+#: Controller/PostsController.php:275
+msgid "Not saved"
+msgstr ""
+
+#: Controller/PostsController.php:299
+msgid "Saved"
+msgstr ""
+
+#: Controller/PostsController.php:299
+msgid "Post was successfully saved"
+msgstr ""
+
+#: Controller/UsersController.php:38
+msgid "Preferences saved"
+msgstr ""
+
+#: Controller/UsersController.php:58
+#: View/Elements/header.ctp:34
+msgid "Log in"
+msgstr ""
+
+#: Controller/UsersController.php:64
+msgid "Users"
+msgstr ""
+
+#: Controller/UsersController.php:74
+msgid "Updated permissions successfully"
+msgstr ""
+
+#: Controller/UsersController.php:87
+msgid "Logged out successfully"
+msgstr ""
+
+#: Controller/UsersController.php:87
+msgid "Come back soon"
+msgstr ""
+
+#: Controller/UsersController.php:113
+msgid "Could not authenticate"
+msgstr ""
+
+#: Controller/UsersController.php:113
+msgid "User cancelled the log in process"
+msgstr ""
+
+#: Controller/UsersController.php:165;270
+#: View/Users/login.ctp:5
+msgid "Welcome"
+msgstr ""
+
+#: Controller/UsersController.php:171
+msgid "Could not authenticate user"
+msgstr ""
+
+#: Controller/UsersController.php:171;178
+msgid "Please try again later"
+msgstr ""
+
+#: Controller/UsersController.php:178
+msgid "Unknown error"
+msgstr ""
+
+#: View/Elements/header.ctp:17
+msgid "My account"
+msgstr ""
+
+#: View/Elements/header.ctp:19
+msgid "Create new post"
+msgstr ""
+
+#: View/Elements/header.ctp:20
+msgid "Manage users"
+msgstr ""
+
+#: View/Elements/header.ctp:22;29
+#: View/Users/prefs.ctp:5
+msgid "My preferences"
+msgstr ""
+
+#: View/Elements/header.ctp:24;30
+msgid "Log out"
+msgstr ""
+
+#: View/Errors/error400.ctp:8
+msgid "The requested address was not found on this server."
+msgstr ""
+
+#: View/Errors/error400.ctp:10
+#: View/Errors/error500.ctp:10
+#: View/Posts/view.ctp:15;80
+#: View/Users/login.ctp:20
+msgid "Back"
+msgstr ""
+
+#: View/Errors/error500.ctp:8
+msgid "An Internal Error Has Occurred."
+msgstr ""
+
+#: View/Helper/PostpermissionHelper.php:15
+msgid "Public"
+msgstr ""
+
+#: View/Helper/PostpermissionHelper.php:16
+msgid "Logged in"
+msgstr ""
+
+#: View/Helper/PostpermissionHelper.php:17
+msgid "Acquintances"
+msgstr ""
+
+#: View/Helper/PostpermissionHelper.php:18
+msgid "Friends"
+msgstr ""
+
+#: View/Helper/PostpermissionHelper.php:19
+msgid "Close friends"
+msgstr ""
+
+#: View/Posts/edit.ctp:11
+msgid "Create/edit post"
+msgstr ""
+
+#: View/Posts/edit.ctp:20
+msgid "Title"
+msgstr ""
+
+#: View/Posts/edit.ctp:21
+msgid "Text"
+msgstr ""
+
+#: View/Posts/edit.ctp:32
+msgid "Current picture"
+msgstr ""
+
+#: View/Posts/edit.ctp:35
+#: View/Posts/view.ctp:84
+msgid "Delete"
+msgstr ""
+
+#: View/Posts/edit.ctp:40
+msgid "Select a file to upload"
+msgstr ""
+
+#: View/Posts/edit.ctp:42
+msgid "Use as site background"
+msgstr ""
+
+#: View/Posts/edit.ctp:43
+msgid "Is a quote"
+msgstr ""
+
+#: View/Posts/edit.ctp:44
+msgid "Is a status update"
+msgstr ""
+
+#: View/Posts/edit.ctp:48
+msgid "This post's permissions:"
+msgstr ""
+
+#: View/Posts/edit.ctp:56
+msgid "Mark location on the map"
+msgstr ""
+
+#: View/Posts/edit.ctp:66
+#: View/Users/prefs.ctp:21
+msgid "Save"
+msgstr ""
+
+#: View/Posts/edit.ctp:91
+msgid "Do you want to delete this picture"
+msgstr ""
+
+#: View/Posts/index.ctp:31
+msgid "No posts found"
+msgstr ""
+
+#: View/Posts/view.ctp:15
+msgid "No post found or you don't have sufficient permissions to view this post"
+msgstr ""
+
+#: View/Posts/view.ctp:28
+msgid "No data"
+msgstr ""
+
+#: View/Posts/view.ctp:40
+msgid "Close"
+msgstr ""
+
+#: View/Posts/view.ctp:62
+msgid "Uploaded"
+msgstr ""
+
+#: View/Posts/view.ctp:75;127
+msgid "Written"
+msgstr ""
+
+#: View/Posts/view.ctp:83
+msgid "Edit"
+msgstr ""
+
+#: View/Posts/view.ctp:84
+msgid "Do you want to delete this post?"
+msgstr ""
+
+#: View/Posts/view.ctp:86
+#: View/Users/view.ctp:17
+msgid "Permissions"
+msgstr ""
+
+#: View/Posts/view.ctp:87
+#: View/Users/view.ctp:18
+msgid "Created"
+msgstr ""
+
+#: View/Posts/view.ctp:88
+msgid "Modified"
+msgstr ""
+
+#: View/Posts/view.ctp:96
+msgid "There are no comments"
+msgstr ""
+
+#: View/Posts/view.ctp:99
+msgid "There are"
+msgstr ""
+
+#: View/Posts/view.ctp:99
+msgid "comment"
+msgstr ""
+
+#: View/Posts/view.ctp:111
+msgid "Save comment"
+msgstr ""
+
+#: View/Posts/view.ctp:112
+msgid "Write your comment here"
+msgstr ""
+
+#: View/Posts/view.ctp:116
+msgid "Log in to your account"
+msgstr ""
+
+#: View/Posts/view.ctp:116
+msgid "to leave a comment"
+msgstr ""
+
+#: View/Posts/view.ctp:127
+msgid "by"
+msgstr ""
+
+#: View/Users/login.ctp:6
+msgid "You can log in with your Google"
+msgstr ""
+
+#: View/Users/login.ctp:6
+msgid "or Facebook"
+msgstr ""
+
+#: View/Users/login.ctp:6
+msgid "account"
+msgstr ""
+
+#: View/Users/login.ctp:9
+msgid "Sign in with Google"
+msgstr ""
+
+#: View/Users/login.ctp:14
+msgid "Sign in with Facebook"
+msgstr ""
+
+#: View/Users/login.ctp:19
+msgid "If this is the first time you log in, you must wait for your permissions to be approved"
+msgstr ""
+
+#: View/Users/prefs.ctp:10
+msgid "Daily email"
+msgstr ""
+
+#: View/Users/prefs.ctp:10
+msgid "Weekly email"
+msgstr ""
+
+#: View/Users/prefs.ctp:10
+msgid "Never"
+msgstr ""
+
+#: View/Users/prefs.ctp:15
+msgid "Email frequency"
+msgstr ""
+
+#: View/Users/prefs.ctp:18
+msgid "Language preference"
+msgstr ""
+
+#: View/Users/view.ctp:5
+msgid "User admin"
+msgstr ""
+
+#: View/Users/view.ctp:14
+msgid "Name"
+msgstr ""
+
+#: View/Users/view.ctp:15
+msgid "Lastname"
+msgstr ""
+
+#: View/Users/view.ctp:16
+msgid "Email"
+msgstr ""
+

@@ -1,0 +1,22 @@
+{
+    "name": "FriendlyDateHelper",
+    "description": "A CakePHP view helper to display SQL DATETIME variables in a user friendly way.",
+    "type": "cakephp-plugin",
+    "keywords": ["cakephp", "plugin", "datetime"],
+    "homepage": "https://github.com/rbchv/FriendlyDateHelper",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Roberto Chavarria",
+            "homepage": "http://www.robchava.com",
+            "role": "Author"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/rbchv/FriendlyDateHelper/issues",
+        "source": "https://github.com/rbchv/FriendlyDateHelper"
+    },
+    "require": {
+        "php": ">=5.2.8"
+    }
+}

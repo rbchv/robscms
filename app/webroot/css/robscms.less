@@ -1,0 +1,309 @@
+
+/* robscms.css */
+
+@backgroundgray: #e5e5e5;
+@borderradiusdivs: 5px;
+
+
+/* ------ Common ------ */
+body
+{
+	font-family: 'Droid Sans', sans-serif;
+	background-color:#999;
+}
+
+div#toppixelpattern
+{
+	opacity:0.15;
+	z-index:-1;
+	position:fixed;
+	top:0px;
+	left:0px;
+	width: 105%;
+	height:105%;
+	background: url('../img/toppixelpattern.png') repeat;
+}
+
+div#mainlayoutcontainer
+{
+	margin-bottom:40px;
+}
+
+div.generalBgWrapperDiv
+{
+	position:relative;
+	background-color:@backgroundgray;
+	border:1px solid white;
+	margin-bottom:15px;
+	border-radius:@borderradiusdivs;
+	padding:40px;
+
+	h1
+	{
+		font-size:28px;
+	}
+}
+
+img.smallquote
+{
+	display:inline;
+	width:12px;
+	padding-right:5px;
+}
+
+div.alert p
+{
+	margin-bottom:0px;
+}
+
+/* ------ Map views ------ */
+#map-canvas img,
+{
+	max-width:none;
+}
+
+#map-canvas label
+{
+	width: auto;
+	display:inline;
+}
+
+
+/* ------ Header ------ */
+img#profilePicHeader
+{
+	margin-top:4px;
+	height:32px;
+	border-radius:2px;
+}
+
+
+/* ------ Footer ------ */
+div#footerwrapper
+{
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	width:100%;
+	background: rgb(54, 25, 25); /* Fall-back for browsers that don't support rgba */
+    background: rgba(54, 25, 25, .75);
+	color:#e5e5e5;
+	padding:5px;
+}
+
+
+
+/* ==================== ME CONTROLLER =================== */
+
+div#meview
+{
+	textarea
+	{
+		width:100%;
+	}
+}
+
+/* ================== USERS CONTROLLER ================= */
+
+/* ------ Login page ------ */
+div#userslogin
+{
+	img.signinbutton
+	{
+		display:block;
+		margin:15px auto;
+	}
+}
+
+/* ------ User prefs ------ */
+div#usersprefs
+{
+	
+}
+
+/* ------ Admin users ------ */
+div#usersview
+{
+	table#usertable
+	{
+	}
+
+	td.permcell
+	{
+		text-decoration:underline;
+		cursor:pointer;
+		span.permchange, span.permsaving
+		{
+			display:none;
+		}
+	}
+}
+
+
+/* ================== POSTS CONTROLLER ================= */
+
+
+/* ------ posts/index ------ */
+
+div#postsindex
+{
+
+	/* Div for each post preview */
+	div.postDiv
+	{
+		background-color:@backgroundgray;
+		padding:3%;
+		border:1px solid white;
+		margin-bottom:15px;
+		cursor:pointer;
+		border-radius:@borderradiusdivs;
+		overflow:hidden;
+
+		h2
+		{
+			margin-top:0px;
+			margin-bottom:5px;
+		}
+
+		p.caption
+		{
+			margin-top:10px;
+			margin-bottom:0px;
+		}
+
+		img.robsthumbnail
+		{
+			display:block;
+			width:100%;
+		}
+	}
+
+	div.aboutMeDiv
+	{
+		border:1px dashed green;
+		background-color:#DFF0D8;
+		cursor:default;
+		min-height: 40px;
+
+		img
+		{
+			float:left;
+			width:40px;
+			margin-right:10px;
+			margin-bottom:10px;
+		}
+	}
+}
+
+
+/* ------ Specific post page ------ */
+
+div#postsview
+{
+
+	img#picDetail
+	{
+		display:block;
+		margin:0 auto;
+		border-radius:@borderradiusdivs;
+	}
+
+	p#picDetailCaption
+	{
+		text-align:center;
+		font-weight:bold;
+		padding:10px;
+		margin:0px;
+
+		span#picTitle
+		{
+			font-weight:bold;
+		}
+	}
+
+	img#showexifbtn, img#showmapbtn, img#keybtn, img#refreshbtn, img#clipboardbtn
+	{
+		cursor:pointer;
+		height:20px;
+		padding:0px 10px;
+	}
+
+	p#createdon
+	{
+		margin:0px 0px 10px 0px;
+	}
+
+	p#speciallinks
+	{
+		margin-bottom:40px;
+	}
+
+	img#closebtn
+	{
+		position: absolute;
+		top:0px;
+		right:0px;
+		padding-right:15px;
+		padding-top:15px;
+		cursor:pointer;
+		width:25px;
+	}
+
+	div.specificcomment
+	{
+		margin-bottom:20px;
+		img.userImg
+		{
+			float:left;
+			margin:0px 20px 20px 0px;
+			width:40px;
+			border-radius:2px;
+		}
+		small
+		{
+			display:block;
+			line-height:12px;
+		}
+		img#deleteCommentImg
+		{
+			width:15px;
+			cursor:pointer;
+			padding-left:5px;
+		}
+	}
+}
+
+
+/* ------ Big map view ------ */
+div#postsmapa
+{
+}
+
+
+/* ------ Create post & upload pic ------ */
+div#postsedit
+{
+	input#PostTitle, textarea#PostText
+	{
+		width:100%;
+	}
+
+	div#postInputFileDiv
+	{
+		margin:10px 0px;
+	}
+
+	div#postInputIsBgDiv
+	{
+		margin-top:20px;
+	}
+
+	div#horizontalInputDiv
+	{
+		div#map-canvas
+		{
+			width:100%;
+			height:300px;
+		}
+	}
+}

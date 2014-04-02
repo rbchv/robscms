@@ -1,0 +1,38 @@
+# User specific & automatically generated files #
+#################################################
+/app/tmp
+/lib/Cake/Console/Templates/skel/tmp/
+/build
+/dist
+/tags
+
+# OS generated files #
+######################
+__MACOSX
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+
+# robscms specific
+/app/webroot/img/users/*.jpg
+!/app/webroot/img/users/default.jpg
+/app/webroot/img/ruperts/200/*.jpg
+/app/webroot/img/ruperts/400/*.jpg
+/app/webroot/img/ruperts/600/*.jpg
+/app/webroot/img/ruperts/800/*.jpg
+/app/webroot/img/ruperts/1200/*.jpg
+/app/webroot/img/ruperts/original/*.jpg
+
+/app/webroot/img/users/*.png
+/app/webroot/img/ruperts/200/*.png
+/app/webroot/img/ruperts/400/*.png
+/app/webroot/img/ruperts/600/*.png
+/app/webroot/img/ruperts/800/*.png
+/app/webroot/img/ruperts/1200/*.png
+/app/webroot/img/ruperts/original/*.png
+

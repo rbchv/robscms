@@ -1,0 +1,21 @@
+{
+    "name": "robscms",
+    "description": "A simple [photo]blogging platform.",
+    "keywords": ["cakephp", "blog", "photoblog", "cms"],
+    "homepage": "https://github.com/rbchv/robscms",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Roberto Chavarria",
+            "homepage": "http://www.robchava.com",
+            "role": "Author"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/rbchv/robscms/issues",
+        "source": "https://github.com/rbchv/robscms"
+    },
+    "require": {
+        "php": ">=5.2.8"
+    }
+}

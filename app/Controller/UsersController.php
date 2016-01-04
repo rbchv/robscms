@@ -259,10 +259,17 @@ class UsersController extends AppController
 				//You should persist this User access token in your database or in a session variable in order to make further requests to the API without having to renew the authentication of the user:
 
 				//TEST
-				$graph_url = "https://graph.facebook.com/me?access_token=" . $params['access_token'];
+				$graph_url = "https://graph.facebook.com/me?fields=id,email,first_name,last_name&access_token=" . $params['access_token'];
 				$user = json_decode($this->Curl->download($graph_url));
 
 				$fbUserEmail = $user->email;
+
+				//We need that email!
+				if (empty($fbUserEmail)) {
+					$this->Session->setFlash('<h4>' . __('Error') . '!</h4><p>' . __('Email is required to log in') . '</p>', 'flash_red');
+					$this->redirect(array('action' => 'index'));
+					return;
+				}
 
 				//Primero buscamos a ver si existe
 				$findUser = $this->User->find('first', array('conditions' => array('User.email' => $fbUserEmail)));

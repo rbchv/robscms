@@ -136,6 +136,10 @@ msgstr "Por favor inténtelo luego"
 msgid "Unknown error"
 msgstr "Error desconocido"
 
+#: Controller/UsersController.php
+msgid "Email is required to log in"
+msgstr "Se requiere el email para ingresar"
+
 #: View/Elements/header.ctp:17
 msgid "My account"
 msgstr "Mi cuenta"

@@ -125,6 +125,10 @@ msgstr ""
 msgid "Unknown error"
 msgstr ""
 
+#: Controller/UsersController.php
+msgid "Email is required to log in"
+msgstr ""
+
 #: View/Elements/header.ctp:17
 msgid "My account"
 msgstr ""

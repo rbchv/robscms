@@ -18,7 +18,7 @@
 		{
 			if( ($this->params['action'] == 'view') || ($this->params['action'] == 'edit') )
 			{
-				echo $this->Html->script('http://maps.googleapis.com/maps/api/js?key=AIzaSyDfbeL0PQhyLRhX7Pbei-OddQRoh7elrMM&sensor=false&libraries=geometry');
+				echo $this->Html->script('http://maps.googleapis.com/maps/api/js?sensor=false&libraries=geometry');
 				echo $this->Html->script('map');
 			}
 
@@ -29,7 +29,7 @@
 
 			if($this->params['action'] == 'map')
 			{
-				echo $this->Html->script('http://maps.googleapis.com/maps/api/js?key=AIzaSyDfbeL0PQhyLRhX7Pbei-OddQRoh7elrMM&sensor=false&libraries=geometry');
+				echo $this->Html->script('http://maps.googleapis.com/maps/api/js?sensor=false&libraries=geometry');
 				echo $this->Html->script('postsmap');
 			}
 		}
